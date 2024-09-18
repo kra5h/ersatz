@@ -112,8 +112,8 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires = [
         'typing;python_version<"3.5"',
-        'torch==2.4.1',
-        'sentencepiece==0.2.0',
+        'torch',
+        'sentencepiece',
         'tensorboard==2.4.1',
         'progressbar2'
     ],
