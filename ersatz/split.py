@@ -199,6 +199,7 @@ class EvalModel():
                     else:
                         out_line.append(col[x])
                 print(delimiter.join(out_line).strip(), file=output_file)
+        return output_file
 
 def parse_args():
     parser = argparse.ArgumentParser(
