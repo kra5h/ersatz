@@ -4,6 +4,20 @@ pretrained, high-performing models for sentence segmentation in a multilingual s
 For more information, please see:
  - [Rachel Wicks and Matt Post (2021):
    A unified approach to sentence segmentation of punctuated text in many languages](https://aclanthology.org/2021.acl-long.309/) In _Proceedings of ACL_.
+
+# Important info
+
+This is a fork that works for Python 3.10, as `pip install ersatz` installs something else.
+One critical output bug was also fixed here.
+
+So use 
+
+```angular2html
+python -m setup install
+```
+
+to install it from source.
+
 # QUICK START
 
 #### Install
